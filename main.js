@@ -5,5 +5,4 @@ function showTextSize() {
   let elVal = elem.value;
   let content = "Size of text is: " + elVal.length + " symbol";
   infoLine.innerHTML = content;
-  console.log(content);
 }
