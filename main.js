@@ -1,5 +1,9 @@
-function myFunction() {
-  let text = document.getElementById("myText").value;
-  document.getElementById("demo").innerHTML =
-    "Size of text is: " + text.length + " symbol";
+const elem = document.getElementById("myText");
+const infoLine = document.getElementById("demo");
+
+function showTextSize() {
+  let elVal = elem.value;
+  let content = "Size of text is: " + elVal.length + " symbol";
+  infoLine.innerHTML = content;
+  console.log(content);
 }
